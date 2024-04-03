@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina demo</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let frutas=["naranja","pera","melón","sandia"]
+    console.log("el numero de elementos es:"+frutas.length) //muestra cuantos elementos hay,la logitud
+    console.log("mostar pera:"+frutas[1])  //muestra el elemento que quiero
+    console.log("mostar:"+frutas[0])     //muestra el elemento 0
+
+    let datos={nom:"kat",ap:"silva",am:"ibarra"} // con {} es un diccionario,concatena diversos arrays
+    console.log(datos)
+    console.log(datos.nom)
+
+    //ForEach me muestra en la consola cada array del diccionario (elementp/nombre, indce/posicion, array/todos los elemetos, lo miro en la consola, click derecho inspeccionar
+    frutas.forEach(function(elemento,indice,array){
+        console.log("el elemento es: "+elemento)
+        console.log("el indice es: "+indice)
+        console.log("el array es: "+array)
+    
+     }) 
+
+     //agregar un nuevo elemento al final
+     let nuevoFinal=frutas.push("pina")
+     let nuevoFinal2=frutas.push("fresa")
+
+     //eliminar ultimo elemento
+     let eliminarUltimo=frutas.pop()
+     
+     
+     //encontrar elemento
+     let buscarElemento=frutas.indexOf('pera')
+     console.log("elemento encontrado: "+buscarElemento)
+
+     //eliminar elemento por posicion
+     let buscarElemento2=frutas.indexOf("pera")
+     //let eliminarposi=frutas.splice(buscarElemento2, 1)
+
+     frutas.forEach(function(elemento,indice,array){
+        console.log(indice,elemento)
+
+     })
+</script>

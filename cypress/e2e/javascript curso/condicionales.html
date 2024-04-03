@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina demo</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+  /* let a=10
+   if(a==10){
+    console.log("el valor es 10");
+   }else{
+    console.log("no es un 10")
+   }
+
+   if(a!=11){
+    console.log("el valor es diferente de 10");
+   }else{
+    console.log("no es diferente de 10")
+   }
+   */
+
+    // CONCATENAR
+
+    /*let edad=parseInt(prompt("dame tu edad"))
+
+    if(edad<=0){
+        alert("la edad no es valida debe ser mayor que cero")
+    }
+
+    else if(edad>=101){
+        alert("la edad no es valida eres mayor de 100")
+    }
+    */
+
+    //CON LO SIGUIENTE ACORTAMOS LAS LINEAS DE CODIGOS ANTERIORES
+    //OPERADOR LOGICO DE UNION &&=Y
+    //OPERADOR LOGICO DE UNION ||= ó (letra)
+
+     /*if(edad<=0 || edad>=101 ){
+        alert("la edad no es valida deber ser mayor que 0 y menor que 101")
+    }
+
+    else if(edad>0 && edad<=10){
+        alert("eres un nino")
+    }
+
+    else if(edad>=11 && edad<=17){
+        alert("eres un adolescente")
+    }
+    else if(edad>=18 && edad<=26){
+        alert("eres un joven")
+    }
+    else{
+        alert("eres un adulto")
+    }
+    */
+    
+    //CON ESTA FUNCION ACORTAMOS LASLNIEAS ANTERIORES DE CODIGOS
+function validarEdad(e){
+        if(edad<=0 || edad>=101 ){
+        alert("la edad no es valida deber ser mayor que 0 y menor que 101")
+    }
+
+    else if(edad>0 && edad<=10){
+        alert("eres un nino")
+    }
+
+    else if(edad>=11 && edad<=17){
+        alert("eres un adolescente")
+    }
+    else if(edad>=18 && edad<=26){
+        alert("eres un joven")
+    }
+    else{
+        alert("eres un adulto")
+    }
+}
+
+let edad=parseInt(prompt("dame tu edad: "))
+validarEdad(edad)
+</script>

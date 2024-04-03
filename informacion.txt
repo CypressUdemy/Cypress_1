@@ -1,0 +1,20 @@
+npm init    ===> dercargar paquete json
+npm install cypress --save-dev  ===> instalar cypress
+npm install -g npx  ===> forzar instalacion cypres, aqui se instalo npx
+    3.1 npx cypress install --force    ===> forzar instalacion cypress
+node_modules\.bin\cypress open  ===> iniciar sistema cypress
+ctrl+c ==> parar consola
+ctrl+s ==> guardar 
+npm install -D cypress-xpath ===> para poder usar Xpath 
+    require('cypress-xpath')==> va en ela rchivo arriba para poder usar Xpath
+
+npm install --save-dev cypress-file-upload ==> para poder adjuntar archivos
+      import 'cypress-file-upload' ==> va en ela rchivo arriba para poder adjuntar
+
+npm install --save-dev @4tw/cypress-drag-drop ==> para arrastrar y soltar con el mouse 
+       require('@4tw/cypress-drag-drop')
+
+Cypress.on('uncaught:exception', (err, runnable) =>{  //este codigo es cuando presenta error sin sentidos
+    return false
+})     
+

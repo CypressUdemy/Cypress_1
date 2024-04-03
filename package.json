@@ -1,0 +1,29 @@
+{
+  "name": "curso-cypress",
+  "version": "1.0.0",
+  "description": "curso cypress udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "katherine silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^13.7.0",
+    "cypress-esbuild-preprocessor": "^1.0.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.17.19",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  },
+    "cypress-cucumber-preprocessor":{
+      "stepDefinitions": "cypress/e2e/cucumber1/**/*.{js,ts}"
+    }
+    
+  }
+
